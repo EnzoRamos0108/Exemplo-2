@@ -82,10 +82,45 @@
 // console.log(num3 > num4 || num4 > num3)
 // console.log(num3==num4 || num4<=num3)
 
-const num5 = 25;
-const num6= 35;
+// const num5 = 25;
+// const num6= 35;
 
-console.log(num5==num6) //compara
-console.log(num5===num6)//compara e verifica o tipo da variavel
-console.log(num5!=num6)//diferente
+// console.log(num5==num6) //compara
+// console.log(num5===num6)//compara e verifica o tipo da variavel
+// console.log(num5!=num6)//diferente
 
+//ESTRUTURA CONDICIONAL
+
+//IF
+
+// let valor=120;
+
+// if(valor==100){
+//     console.log("Valor correto!")
+// }else{
+//     console.log("Valor errado.")
+// }
+
+//if/else - encadeado ou aninhado
+
+let idade = 895;
+
+if(idade<=14){
+    console.log("Não pode entrar na balada.")
+}
+else if(idade >14 && idade <18){
+    console.log("Pode entrar e curtir, só não pode baforar lança.")
+}
+else if(idade>50){
+    console.log("Você não tem idade pra isso")
+}
+else{
+    console.log("Fica em casa assistindo TV.")
+}
+
+// Condição ternária
+
+let valor2 = 301
+
+let resultado = valor2 == 300? "Certo": "Errado"
+console.log(resultado)
