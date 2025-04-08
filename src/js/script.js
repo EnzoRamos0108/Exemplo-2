@@ -120,7 +120,61 @@ else{
 
 // Condição ternária
 
-let valor2 = 301
+// let valor2 = 301
 
-let resultado = valor2 == 300? "Certo": "Errado"
-console.log(resultado)
+// let resultado = valor2 == 300? "Certo": "Errado"
+// console.log(resultado)
+
+//SWITCH CASE
+
+// let time = "Santos"
+
+// switch(time){
+//     case "Corinthians":
+//         console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Não é um time")
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial")
+//         break;
+//     case "Santos":
+//         console.log("Eu sinto muito")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+
+//ESTRUTURA DE LAÇO DE REPETIÇÃO
+
+// for(let i=0;i<10;i++){
+//     console.log(`O valor de I é ${i}`)
+// }
+
+// let w=0
+
+// while(w<=10){
+//     console.log(`O valor de W é ${w}`);
+//     w++;
+// }
+
+// //do while
+
+// let z=10;
+
+// do{
+//     console.log("Do while é",z)
+//     z++;
+
+// }while(z<=1000)
+
+
+
+
+
+
+
+
+
