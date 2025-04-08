@@ -103,20 +103,20 @@
 
 //if/else - encadeado ou aninhado
 
-let idade = 895;
+// let idade = 895;
 
-if(idade<=14){
-    console.log("Não pode entrar na balada.")
-}
-else if(idade >14 && idade <18){
-    console.log("Pode entrar e curtir, só não pode baforar lança.")
-}
-else if(idade>50){
-    console.log("Você não tem idade pra isso")
-}
-else{
-    console.log("Fica em casa assistindo TV.")
-}
+// if(idade<=14){
+//     console.log("Não pode entrar na balada.")
+// }
+// else if(idade >14 && idade <18){
+//     console.log("Pode entrar e curtir, só não pode baforar lança.")
+// }
+// else if(idade>50){
+//     console.log("Você não tem idade pra isso")
+// }
+// else{
+//     console.log("Fica em casa assistindo TV.")
+// }
 
 // Condição ternária
 
@@ -171,8 +171,19 @@ else{
 // }while(z<=1000)
 
 
+//FUNÇÕES
 
+function saudacao(nome){
+    console.log(`Seja bem vindo, ${nome}`)
+}
 
+saudacao("Enzo")
+
+function semaforo(){
+    let sinal = "preto e branco, vai corinthians";
+    console.log(`O semáforo está ${sinal}`)
+}
+semaforo()
 
 
 
